@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+      <head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Video Analysis Upload</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+      </head>
+      <body>
+        <div class="container">
+          <h1>Upload Video for Analysis</h1>
+          <form action="" method="post" encType="multipart/form-data">
+            <input type="file" name="video" accept="video/*" required />
+            <button type="submit">Upload and Analyze</button>
+          </form>
+        </div>
+      </body>
+    </html>
